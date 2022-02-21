@@ -36,7 +36,7 @@ const Index = ({ data, location }) => {
           <div className="mb-8 pb-4 border-b-2 flex justify-between items-center">
             <h2 className="md:text-4xl text-2xl font-semibold flex">📝 Informasi Terbaru</h2>
             <div className="flex">
-              <Link to="/blog" className="sm:text-md text-sm text-gray-600 p-4">Semua berita →</Link>
+              <Link to="/berita" className="sm:text-md text-sm text-gray-600 p-4">Semua berita →</Link>
             </div>
           </div>
           
@@ -79,7 +79,7 @@ const Index = ({ data, location }) => {
         <div className="max-w-6xl mx-auto md:px-6 px-4 py-8">
           <h2 className="md:text-4xl text-2xl font-semibold mb-8 pb-4 border-b-2">👥 Tentang PPI Kyoto-Shiga</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat velit scelerisque in dictum non consectetur a. Nibh tellus molestie nunc non blandit massa. Potenti nullam ac tortor vitae. Ac feugiat sed lectus vestibulum. Ipsum dolor sit amet consectetur adipiscing elit duis tristique sollicitudin. Eu lobortis elementum nibh tellus. Purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Eget egestas purus viverra accumsan in. Odio eu feugiat pretium nibh ipsum. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi.
+          Persatuan Pelajar Indonesia di Jepang Komisariat Kyoto-Shiga, atau disingkat PPI Kyoto-Shiga merupakan organisasi struktural yang bersifat ilmiah dan kekeluargaan serta berstatus independen. PPI Kyoto-Shiga menjalin Kerja sama komunikasi dan memosisikan diri sebagai mitra setara dan bukan hubungan koordinatif dengan PPI Jepang dan PPI Koordinator Daerah Kansai (PPI Korda Kansai).
           </p>
         </div>
         
