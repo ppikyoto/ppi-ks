@@ -6,9 +6,9 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import logo from '/src/images/logo.png'
 
 const navigation = [
-  { name: 'Info COVID-19', to: '/#products', current: false },
-  { name: 'Sensus 2022', to: '/#products', current: false },
-  { name: 'Tentang Kami', to: '/#about', current: false },
+  { name: 'Info COVID-19', to: '/info-covid19', current: false },
+  { name: 'Sensus 2022', to: 'https://forms.gle/rYQL3wUBYg4LQPxx5', current: false },
+  { name: 'Tentang Kami', to: '/about', current: false },
 ]
 
 function classNames(...classes) {

@@ -23,7 +23,7 @@ const Index = ({ data, location }) => {
               PPI Kyoto-Shiga
               </h2>
               <p className="text-sm sm:text-lg">Persatuan Pelajar Indonesia di Kyoto dan Shiga periode kepengurusan 2021/2022.</p>
-              <button className="bg-primary hover:bg-secondary text-white text-md sm:text-md font-medium my-4 py-2 px-4 rounded-lg"><Link to="/#contact">Tentang kami</Link></button>
+              <button className="bg-primary hover:bg-secondary text-white text-md sm:text-md font-medium my-4 py-2 px-4 rounded-lg"><Link to="/about">Tentang kami</Link></button>
             </div>
             <div className="absolute py-16 z-0 inset-y-0 right-0 items-center">
                 <img src={cta} className="h-full items-center" alt="cta"/>
@@ -36,7 +36,7 @@ const Index = ({ data, location }) => {
           <div className="mb-8 pb-4 border-b-2 flex justify-between items-center">
             <h2 className="md:text-4xl text-2xl font-semibold flex">📝 Informasi Terbaru</h2>
             <div className="flex">
-              <Link to="/blog" className="sm:text-md text-sm text-gray-600 p-4">Read all posts →</Link>
+              <Link to="/blog" className="sm:text-md text-sm text-gray-600 p-4">Semua berita →</Link>
             </div>
           </div>
           
