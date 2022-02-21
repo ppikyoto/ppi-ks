@@ -1,10 +1,11 @@
 ---
 title: Informasi terkait COVID-19
 date: "2022-02-21T22:12:03.284Z"
-featuredImage: /images/uploads/hello-world.jpg
+featuredImage: /images/uploads/placeholder.png
 description: "Informasi terbaru terkait COVID-19 oleh PPI Kyoto-Shiga"
 ---
 
+## Kontak KBRI dan KJRI
 Kontak Info KJRI Osaka 
 - hotline: +81-80-3113-1003 (telepon/WA/Line).
 - email: osaka.kjri@kemlu.go.id ; kjri-osaka@indonesia-osaka.org
@@ -13,7 +14,7 @@ Kontak Info KBRI Tokyo
 - telp: +81-03-3441-4201
 - email:  info@kbritokyo.jp
 
---
+
 ## Tempat yang Melayani Tes PCR:
 
 Database Covid-19 TeCOT (Testing Center for Overseas Travelers): 
@@ -29,7 +30,7 @@ Bisa datang tanpa reservasi, tapi beberapa tempat mungkin mengadakan sistem rese
 - Oike Clinic, Nakagyo-ku - ¥29,700 https://www.oike-clinic.jp/about/news/003247.html 
 - Kyoto PCR, Shimogyo-ku - ¥15,000 http://kyotopcr.com/ 
 
---
+
 ## Rumah Sakit Rujukan:
 Daftar Rumah Sakit Dengan Layanan Penerjemah di Kyoto https://www.kcif.or.jp/web/en/livingguide/hospitals/ (PDF https://www.kcif.or.jp/web/assets/pdf/en_hospital_list.pdf ). 
 Layanan penerjemah bebas biaya, tapi reservasi mungkin dibutuhkan di beberapa tempat.
