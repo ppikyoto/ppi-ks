@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-import logo from '/src/images/logo.png'
+import cta from '/src/images/cta.jpg'
 
 const Index = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -12,24 +12,21 @@ const Index = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="Bitlearn" />
+      <Seo title="PPI Kyoto-Shiga" />
 
       <div className="grid grid-cols-1 gap-16">
         {/* CTA */}
         <div className="bg-secondary m-12">
-          <div className="grid grid-cols-2 sm:grid-cols-6 items-end mx-auto px-4 py-12 sm:py-36 space-y-12 max-w-6xl">
-            <div className="bg-white col-span-2 sm:col-span-4">
-              <h2 className="sm:text-3xl text-2xl font-bold mb-8">
+          <div className="relative grid grid-cols-5 mx-auto px-4 py-12 sm:py-36 max-w-6xl">
+            <div className="bg-white col-span-3 p-16 z-10">
+              <h2 className="sm:text-5xl text-2xl font-bold mb-8">
               PPI Kyoto-Shiga
               </h2>
               <p className="text-sm sm:text-lg">Persatuan Pelajar Indonesia di Kyoto dan Shiga periode kepengurusan 2021/2022.</p>
-              <button className="bg-primary hover:bg-secondary text-white text-md sm:text-md font-medium my-8 py-2 px-4 rounded-lg"><Link to="/#contact">Tentang kami</Link></button>
+              <button className="bg-primary hover:bg-secondary text-white text-md sm:text-md font-medium my-4 py-2 px-4 rounded-lg"><Link to="/#contact">Tentang kami</Link></button>
             </div>
-            <div>
-              <img src={logo} className="h-20 mx-2" alt="logo"/>
-            </div>
-            <div className="col-span-2">
-              
+            <div className="absolute py-16 z-0 inset-y-0 right-0 items-center">
+                <img src={cta} className="h-full items-center" alt="cta"/>
             </div>
           </div>
         </div>
