@@ -52,7 +52,7 @@ const Index = ({ data, location }) => {
                     itemType="http://schema.org/Article"
                   >
                     <header>
-                      <h3 className="text-gray-800 md:text-2xl text-xl">
+                      <h3 className="text-gray-800 md:text-2xl text-xl font-bold">
                         <Link to={post.fields.slug} itemProp="url">
                           <span itemProp="headline">{title}</span>
                         </Link>

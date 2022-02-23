@@ -1,7 +1,7 @@
 ---
 title: Sensus warga 2022
 date: "2022-02-22T22:12:03.284Z"
-featuredImage: /images/uploads/placeholder.png
+featuredImage: /images/uploads/placeholder2.png
 description: "Berikut adalah pertanyaan untuk sensus warga yang ada di wilayah Kyoto-Shiga. Sensus ini bertujuan untuk mendapatkan gambaran terkini kondisi dan status warga Kyoto-Shiga. "
 ---
 
