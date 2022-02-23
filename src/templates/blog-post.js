@@ -26,7 +26,7 @@ const BlogPostTemplate = ({ data, location }) => {
         </header>
         <div className="max-w-4xl mx-auto py-12">
           <img 
-          className="w-full lg:h-96 sm:h-72 h-48 mx-auto object-cover rounded-md"
+          className="w-full sm:h-72 h-40 mx-auto object-cover rounded-md"
           src={post.frontmatter.featuredImage} alt={post.frontmatter.title}></img>
         </div>
         <section

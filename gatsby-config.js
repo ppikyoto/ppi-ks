@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `PPI Kyoto-Shiga`,
     author: {
       name: `PPI Kyoto-Shiga`,
       summary: `Persatuan Pelajar Indonesia di Kyoto dan Shiga`,
