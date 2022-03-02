@@ -12,7 +12,7 @@ const Index = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="PPI Kyoto-Shiga" />
+      <Seo title="Home" />
 
       <div className="grid grid-cols-1 gap-16">
         {/* CTA */}
