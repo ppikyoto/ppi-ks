@@ -135,7 +135,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['DM Sans']
+          families: ['DM Sans', 'DM Serif Display', 'Berkshire Swash', 'Libre Baskerville']
         }
       }
     },
