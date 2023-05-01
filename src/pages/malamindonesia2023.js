@@ -7,7 +7,7 @@ import mi2023logo from '/static/images/mi2023-logo.png'
 import image1 from '/static/images/mi2023-1.jpeg'
 import image2 from '/static/images/mi2023-2.jpg'
 import image3 from '/static/images/mi2023-3.jpg'
-import dateandtime from '/static/images/mi2023-dateandtime.png'
+import dateandtime from '/static/images/mi2023-dateandtime.svg'
 
 const MalamIndonesia2023 = ({ location }) => {
 
