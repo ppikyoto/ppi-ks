@@ -40,9 +40,9 @@ const MalamIndonesia2023 = ({ location }) => {
           </div>
           <div className="grid grid md:grid-cols-2">
             <div className="p-8">
-              <h3 className="md:text-3xl text-2xl text-right font-display font-bold">Workshop Batik/Songket/Tenun</h3>
+              <h3 className="md:text-3xl text-2xl text-right font-display font-bold">Tenun workshop</h3>
               <p className="md:text-xl text-lg text-right font-display font-bold">13:00 - 16:00</p>
-              <p className="md:text-2xl text-xl text-right font-serif mt-4">Presenting batik and the eco-friendly process of the making, the workshop will introduce batik-motived furoshiki to promote cultural awareness and diversity.</p>
+              <p className="md:text-2xl text-xl text-right font-serif mt-4">Working together with institutions residing in Indonesia, MI 2023 will host a workshop to make Furoshiki using tenun technique with hopes to raise the international community’s public awareness towards tenun. Participants will be taught to make tenun related products with an eco-friendly method, as well as introduced to distinct tenun patterns, specifically ones originating from Tidore.</p>
             </div>
             <div>
               <img src={image2} className="w-full" alt="cta"/>
