@@ -27,7 +27,7 @@ const AboutPage = () => {
               Namun, dengan sifat dan semangat kekeluargaan yang dijunjung, PPI Kyoto-Shiga juga memberikan pelayanan kepada anggota keluarga dari pelajar (dependen) dan kepada WNI lain, khususnya yang berdomisili di Kyoto-Shiga baik dari kalangan pekerja (けんしゅうせい), perawat, maupun WNI pada umumnya. Dengan hal ini, keberadaan PPI Kyoto-Shiga dapat dirasakan oleh semua warganya. Tidak hanya yang berdomisili di Kyoto-Shiga, tapi juga bagi WNI lainnya.
             </p>
           </div>
-          <h2 className="max-w-4xl md:text-3xl text-2xl text-black font-bold mb-8 mx-auto pb-4 pt-8 border-b-2">Struktur Kepengurusan PPI Kyoto-Shiga 2021/2022</h2>
+          <h2 className="max-w-4xl md:text-3xl text-2xl text-black font-bold mb-8 mx-auto pb-4 pt-8 border-b-2">Struktur Kepengurusan PPI Kyoto-Shiga 2022/2023</h2>
           <div>
             <img src={bagan} alt="bagan"/>
           </div>
