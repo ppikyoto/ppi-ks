@@ -3,7 +3,7 @@ import * as React from 'react'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-import bagan from '/src/images/bagan2223.png'
+import bagan from '/src/images/bagan2223-v2.png'
 
 // Step 2: Define your component
 const AboutPage = () => {
