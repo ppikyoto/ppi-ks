@@ -21,7 +21,7 @@ const MalamIndonesia2023 = ({ location }) => {
             <img src={mi2023logo} className="w-full" alt="cta"/>
           </div>
           <div className="flex justify-center">
-            <button className="bg-gray-400 hover:bg-gray-500 text-white text-lg sm:text-md font-display font-medium my-4 py-2 px-4 rounded-full"><a href="">Registration is not open</a></button>
+            <button className="bg-primary hover:bg-gray-500 text-white text-lg sm:text-md font-display font-medium my-4 py-2 px-4 rounded-full"><a href="#register-here">Register here</a></button>
           </div>
         </div>
 
@@ -35,14 +35,14 @@ const MalamIndonesia2023 = ({ location }) => {
             <div className="p-8">
               <h3 className="md:text-3xl text-2xl font-display font-bold">Indonesian Product Bazaar</h3>
               <p className="md:text-xl text-lg font-display font-bold">12:00 - 17:00</p>
-              <p className="md:text-2xl text-xl font-serif pr-8 mt-4">A bazaar introducing varieties of Indonesian food, beverages, apparel, and souvenirs.</p>
+              <p className="md:text-xl text-xl font-serif pr-8 mt-4">A bazaar introducing varieties of Indonesian food, beverages, apparel, and souvenirs.</p>
             </div>
           </div>
           <div className="grid grid md:grid-cols-2">
             <div className="p-8">
               <h3 className="md:text-3xl text-2xl text-right font-display font-bold">Tenun workshop</h3>
               <p className="md:text-xl text-lg text-right font-display font-bold">13:00 - 16:00</p>
-              <p className="md:text-2xl text-xl text-right font-serif mt-4">Working together with institutions residing in Indonesia, MI 2023 will host a workshop to make Furoshiki using tenun technique with hopes to raise the international community’s public awareness towards tenun. Participants will be taught to make tenun related products with an eco-friendly method, as well as introduced to distinct tenun patterns, specifically ones originating from Tidore.</p>
+              <p className="md:text-xl text-xl text-right font-serif mt-4">Working together with institutions residing in Indonesia, MI 2023 will host a workshop to make Furoshiki using tenun technique with hopes to raise the international community’s public awareness towards tenun. Participants will be taught to make tenun related products with an eco-friendly method, as well as introduced to distinct tenun patterns, specifically ones originating from Tidore.</p>
             </div>
             <div>
               <img src={image2} className="w-full" alt="cta"/>
@@ -55,7 +55,7 @@ const MalamIndonesia2023 = ({ location }) => {
             <div className="p-8">
               <h3 className="md:text-3xl text-2xl font-display font-bold">Cultural Performance</h3>
               <p className="md:text-xl text-lg font-display font-bold">17:00 - 19:30</p>
-              <p className="md:text-2xl text-xl font-serif pr-8 mt-4">A Japanese in kimono discovers the meaning and diversity of Indonesia's traditional fabrics through the guidance of Indonesians in an adventure around Indonesia presented in various cultural performances.</p>
+              <p className="md:text-xl text-xl font-serif pr-8 mt-4">A Japanese in kimono discovers the meaning and diversity of Indonesia's traditional fabrics through the guidance of Indonesians in an adventure around Indonesia presented in various cultural performances.</p>
             </div>
           </div>
         </div>
@@ -76,9 +76,28 @@ const MalamIndonesia2023 = ({ location }) => {
         </div>
 
         {/* Register here */}
-        <div className="flex justify-between container mx-auto bg-mi2023bg bg-cover px-12 py-8 rounded-3xl items-center">
-          <h2 className="flex-1 text-4xl font-serif font-bold">Register now</h2>
-          <button className="flex-0 bg-gray-400 hover:bg-gray-500 text-white text-lg sm:text-md font-bold font-display my-4 py-2 px-4 rounded-full"><a href="">Registration is not open</a></button>
+        <div className="grid grid-cols-1 gap-4 container mx-auto bg-mi2023bg bg-cover px-12 py-8 rounded-3xl items-center" id="register-here">
+          <h2 className="text-4xl font-serif font-bold px-6">Register now</h2>
+          <p className="text-xl px-6 mb-4">For registration please kindly reach out to our designated contact persons.</p>
+          <div className="grid grid-cols-2 gap-6">
+            <div className="bg-white rounded-2xl p-6">
+              <h3 className="text-2xl font-serif font-bold mb-4">Tubagus Daffa</h3>
+              <p className="text-lg">LINE: merdangga2014</p>
+              <p className="text-lg">Phone: +81 90 4290 7297</p>
+              <p className="text-lg">WA: +62 812 1066 6279</p>
+            </div>
+            <div className="bg-white rounded-2xl p-6">
+              <h3 className="text-2xl font-serif font-bold mb-4">Rafa</h3>
+              <p className="text-lg">LINE: 21436578</p>
+              <p className="text-lg">Phone: +81 80 3436 8865</p>
+              <p className="text-lg">WA: +81 80 3436 8865</p>
+            </div>
+            <div className="flex gap-4 px-6">
+              <a className="text-lg underline" href="https://drive.google.com/file/d/1WvPIo8AI-b7j9sKg0UftpvXvSLl8yULr/view?usp=sharing">Event Poster (EN)</a>
+              <a className="text-lg underline" href="https://drive.google.com/file/d/1ngbnWluEnYoNMmsX3fNvsqE8TePwSJDw/view?usp=sharing">Event Poster (JP)</a>
+            </div>
+          </div>
+
         </div>
         
         </main>
