@@ -14,6 +14,7 @@ import image7 from '/static/images/mi2023-angklung.png'
 import image8 from '/static/images/mi2023-saman.png'
 import image9 from '/static/images/mi2023-bajidor.png'
 import image10 from '/static/images/mi2023-bali.png'
+import mi2023sponsors from '/static/images/mi2023-sponsors.png'
 import dateandtime from '/static/images/mi2023-dateandtime.png'
 
 const MalamIndonesia2023 = ({ location }) => {
@@ -175,7 +176,12 @@ const MalamIndonesia2023 = ({ location }) => {
               <a className="md:text-lg underline" href="https://drive.google.com/file/d/1ngbnWluEnYoNMmsX3fNvsqE8TePwSJDw/view?usp=sharing">Event Poster (JP)</a>
             </div>
           </div>
+        </div>
 
+        {/* Sponsors */}
+        <div className="container mx-auto p-4">
+          <h2 className="md:text-3xl text-2xl text-primary text-center font-serif font-medium mx-auto pt-8">Malam Indonesia 2023 is proudly supported by</h2>
+          <img src={mi2023sponsors} className="w-full md:px-24" alt="cta"/>
         </div>
         
         
