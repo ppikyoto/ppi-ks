@@ -27,7 +27,7 @@ const MalamIndonesia2023 = ({ location }) => {
 
         {/* Event rundown */}
         <div className="container mx-auto p-4">
-          <h2 className="md:text-5xl text-3xl text-black text-center font-accent font-medium mb-8 mx-auto pb-4 pt-8 border-b-4 border-primary">Event Rundown</h2>
+          <h2 className="md:text-5xl text-3xl text-primary text-center font-accent font-medium mb-8 mx-auto pb-4 pt-8 border-b-4 border-white">Event Rundown</h2>
           <div className="grid md:grid-cols-2">
             <div>
               <img src={image1} className="w-full" alt="cta"/>
@@ -43,7 +43,7 @@ const MalamIndonesia2023 = ({ location }) => {
               <img src={image2} className="w-full" alt="cta"/>
             </div>
             <div className="p-8">
-              <h3 className="md:text-3xl text-2xl text-right font-display font-bold">Tenun workshop</h3>
+              <h3 className="md:text-3xl text-2xl text-right font-display font-bold">Tenun Workshop</h3>
               <p className="md:text-xl text-md text-right font-display font-bold">13:00 - 16:00</p>
               <p className="md:text-xl text-md text-right font-serif mt-4">Working together with institutions residing in Indonesia, MI 2023 will host a workshop to make Furoshiki using tenun technique with hopes to raise the international community’s public awareness towards tenun. Participants will be taught to make tenun related products with an eco-friendly method, as well as introduced to distinct tenun patterns, specifically ones originating from Tidore.</p>
             </div>
@@ -65,7 +65,7 @@ const MalamIndonesia2023 = ({ location }) => {
 
         {/* Date and location */}
         <div className="container mx-auto p-4">
-          <h2 className="md:text-5xl text-3xl text-black text-center font-accent font-medium mb-8 mx-auto pb-4 pt-8 border-b-4 border-primary">Date and Location</h2>
+          <h2 className="md:text-5xl text-3xl text-primary text-center font-accent font-medium mb-8 mx-auto pb-4 pt-8 border-b-4 border-white">Date and Location</h2>
           <div className="grid grid md:grid-cols-2">
             <div className="hidden md:inline">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.836150852511!2d135.7854501152099!3d35.01080648035603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108de2db4d293%3A0x5d95201632b7c49b!2sKyoto%20International%20Community%20House%20(kokoka)!5e0!3m2!1sen!2sjp!4v1677590116169!5m2!1sen!2sjp" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="kokoka map" className="rounded-2xl"></iframe>
@@ -82,7 +82,7 @@ const MalamIndonesia2023 = ({ location }) => {
 
         {/* Register here */}
         <div className="grid grid-cols-1 gap-4 container mx-auto bg-mi2023bg bg-cover px-6 md:px-12 py-12 md:rounded-3xl items-center" id="register-here">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold md:px-6">Register now</h2>
+          <h2 className="text-3xl md:text-4xl font-accent md:px-6">Register now</h2>
           <p className="text-md md:text-xl md:px-6 mb-4">For registration please kindly reach out to our designated contact persons.</p>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white rounded-2xl p-6">
@@ -104,6 +104,7 @@ const MalamIndonesia2023 = ({ location }) => {
           </div>
 
         </div>
+        
         
         </main>
     </Layout>
