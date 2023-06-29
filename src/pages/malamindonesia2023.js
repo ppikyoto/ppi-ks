@@ -14,6 +14,7 @@ import image7 from '/static/images/mi2023-angklung.png'
 import image8 from '/static/images/mi2023-saman.png'
 import image9 from '/static/images/mi2023-bajidor.png'
 import image10 from '/static/images/mi2023-bali.png'
+import image11 from '/static/images/mi2023-fashionshow.png'
 import mi2023sponsors from '/static/images/mi2023-sponsors.png'
 import dateandtime from '/static/images/mi2023-dateandtime.png'
 
@@ -132,6 +133,18 @@ const MalamIndonesia2023 = ({ location }) => {
                 <p className="md:text-xl text-md font-serif pr-8 mt-4">Bali dance encompasses a wide range of traditional dances from the island of Bali, known for their intricate movements, expressive storytelling, and ornate costumes, reflecting the cultural richness and artistic traditions of Bali.</p>
               </div>
             </div>
+            <div className="grid md:grid-cols-2 items-center">
+              <div className="inline md:hidden">
+                <img src={image11} className="w-full" alt="cta"/>
+              </div>
+              <div className="p-8">
+                <h3 className="md:text-3xl text-2xl text-right font-display font-bold">Fashion Show</h3>
+                <p className="md:text-xl text-md text-right font-serif mt-4">Experience a stunning fashion show that highlights the beauty of Indonesian traditional clothing and fabrics. Celebrate Indonesia's rich cultural heritage and exquisite craftsmanship through this mesmerizing display.</p>
+              </div>
+              <div className="md:inline hidden">
+                <img src={image11} className="w-full" alt="cta"/>
+              </div>
+            </div>
             
           </div>
           
@@ -177,15 +190,20 @@ const MalamIndonesia2023 = ({ location }) => {
             </div>
           </div>
         </div>
-
+        
         {/* Sponsors */}
         <div className="container mx-auto p-4">
           <h2 className="md:text-3xl text-2xl text-primary text-center font-serif font-medium mx-auto pt-8">Malam Indonesia 2023 is proudly supported by</h2>
           <img src={mi2023sponsors} className="w-full md:px-24" alt="cta"/>
         </div>
+
+        {/* Contacts */}
+        <div className="flex flex-wrap gap-4 max-w-6xl md:text-2xl text-lg font-serif mx-auto p-4">
+          <div className="">Follow us on Instagram</div>
+          <a href="https://instagram.com/malamindonesia2023" className="text-primary">@MalamIndonesia2023</a>
+        </div>
         
-        
-        </main>
+       </main>
     </Layout>
   )
 }
