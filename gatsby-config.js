@@ -125,7 +125,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-netlify`,
-    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-decap-cms`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
