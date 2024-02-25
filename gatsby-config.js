@@ -124,7 +124,6 @@ module.exports = {
         icon: `src/images/ppiks-icon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-netlify`,
     `gatsby-plugin-decap-cms`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
