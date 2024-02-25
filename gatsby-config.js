@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `PPI Kyoto-Shiga`,
+    title: `PPI Kyoto`,
     author: {
-      name: `PPI Kyoto-Shiga`,
-      summary: `Persatuan Pelajar Indonesia di Kyoto dan Shiga`,
+      name: `PPI Kyoto`,
+      summary: `Persatuan Pelajar Indonesia di Kyoto`,
     },
-    description: `Persatuan Pelajar Indonesia di Kyoto dan Shiga`,
+    description: `Persatuan Pelajar Indonesia di Kyoto`,
     siteUrl: `https://ppikyotoshiga.com/`,
     social: {
       twitter: ``,

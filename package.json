@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "ppi-kyoto",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Persatuan Pelajar Indonesia di Kyoto",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "PPI Kyoto",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
